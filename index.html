@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangle Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Triangle Tracker</h1>
+
+      <div class="row">
+        <div id="column-one" class="col-md-3">
+          <h2>Enter three Sides of the Triangle:</h2>
+
+          <form id="sides-input">
+            <div class="form-group">
+              <label for="side-one">Enter Side One</label>
+              <input type="number" class="form-control" id="side-one">
+              <label for="side-two">Enter Side Two</label>
+              <input type="number" class="form-control" id="side-two">
+              <label for="side-three">Enter Side Three</label>
+              <input type="number" class="form-control" id="side-three">
+            </div>
+
+            <button type="submit" name="submit-btn" id="submit-btn" class="btn btn-primary">Submit</button>
+          </form>
+
+        </div>
+        <div id="column-two" class="col-md-3">
+          <h2>Equilateral Triangles</h2>
+          <ul id="equil-triangle"></ul>
+        </div>
+
+        <div id="column-three" class="col-md-3">
+          <h2>Isosceles Triangles</h2>
+          <ul id="isos-triangle"></ul>
+        </div>
+
+        <div id="column-four" class="col-md-3">
+          <h2>Scalene Triangles</h2>
+          <ul id="scal-triangle"></ul>
+        </div>
+
+
+      </div>
+    </div>
+  </body>
+</html>
